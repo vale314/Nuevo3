@@ -1,0 +1,286 @@
+body {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #1976d2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.top-bar {
+  padding: 10px 15px;
+  margin-bottom: 50px;
+}
+.top-bar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-bar-left {
+  float: left;
+  font-size: 1.5em;
+}
+
+.top-bar-right {
+  float: right;
+}
+
+.top-bar a,
+.nav a {
+  margin: 0 8px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 900px;
+  padding-top: 3px;
+}
+
+.card-heading {
+  padding: 70px;
+}
+
+.field-line, .button-line {
+  padding: 16px;
+}
+
+.error-message {
+  padding: 0 16px;
+  color: tomato;
+}
+
+.success-message {
+  padding: 0 16px;
+  color: green;
+}
+
+
+#background {
+  /*
+
+  https://static.pexels.com/photos/87314/pexels-photo-87314.jpeg
+  https://static.pexels.com/photos/336614/pexels-photo-336614.jpeg
+  https://static.pexels.com/photos/89837/pexels-photo-89837.jpeg
+  https://static.pexels.com/photos/188691/pexels-photo-188691.png
+  https://static.pexels.com/photos/27411/pexels-photo-27411.jpg
+    https://static.pexels.com/photos/65108/pexels-photo-65108.jpeg
+  https://static.pexels.com/photos/261501/pexels-photo-261501.jpeg
+
+
+
+  https://c1.staticflickr.com/5/4186/34684919645_25f5e66ebb_k.jpg
+  https://c1.staticflickr.com/5/4192/34684921155_e301a5881e_k.jpg
+  https://c1.staticflickr.com/5/4180/34300245310_416a85f374_k.jpg
+  */
+
+background-image: url(https://c1.staticflickr.com/5/4182/34684652395_28b223eb17_k.jpg);
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+        
+    }
+    #background {
+
+
+    background-image: url(https://static.pexels.com/photos/27411/pexels-photo-27411.jpg);
+        /* Full height */
+        height: 100px;
+        width:auto;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .caption {
+      margin-top: 150px;
+    }
+    .container {
+      margin: 0 auto;
+      text-align: center;
+      width: auto;
+      padding-top: 3px;
+    }
+
+}
+@media only screen and (max-device-width: 1024px) {
+    #caption{
+      margin-top: 700px;
+      opacity: .7;
+    }
+    #border {
+      background-color: transparent;
+      color: #fff;
+      padding: 18px;
+      font-size: 25px;
+      letter-spacing: 10px;
+    }
+
+}
+
+#caption{
+  margin-top: 700px;
+  opacity: .7;
+}
+#border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+}
+#backgroundE {
+  transition: all 1.5s ease;near;
+  background-image: url(  https://c1.staticflickr.com/5/4180/34300245310_416a85f374_k.jpg
+);
+  transition: background-color 1000ms linear;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+@media (max-width: 600px) {
+  .caption {
+    opacity: .5;
+  }
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url(fotos3.jpg);
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(https://static.pexels.com/photos/248021/pexels-photo-248021.jpeg);
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url(https://static.pexels.com/photos/77984/pexels-photo-77984.jpeg);
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url(  https://c1.staticflickr.com/5/4192/34684921155_e301a5881e_k.jpg
+);
+  min-height: 900px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+#div1{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+
+}
+
+#div{
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  margin-top:900px;
+  text-align: justify;
+
+}
+
+
+#hs3{
+  text-align:center;
+}
+#style3{
+  color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;
+}
+#nav2 {
+  margin: 0 100px;
+}
