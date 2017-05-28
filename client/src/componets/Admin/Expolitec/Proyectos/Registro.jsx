@@ -51,6 +51,9 @@ const SignUpForm = ({
           <ul className="nav navbar-nav">
             <li><Link to="/busquedap">FINDS-Proye</Link></li>
           </ul>
+          <ul className="nav navbar-nav">
+            <li><Link to="/mensa">Mensa</Link></li>
+          </ul>
         </div>
       </div>
     </nav>
@@ -110,12 +113,12 @@ const SignUpForm = ({
 
 
           <div className="button-line">
-            <RaisedButton type="submit" label="Create New Account" primary />
+            <RaisedButton type="submit" label="Save!" primary />
           </div>
 
 
 
-          <CardText>Password<Link to={'/registroproyea'}>Alterar</Link></CardText>
+          <CardText>Registro<Link to={'/registroproyea'}>Alterar</Link></CardText>
 
           <CardText>Password<Link to={'/passwordaproye'}>Alterar</Link></CardText>
         </form>

@@ -110,12 +110,12 @@ background-image: url(https://c1.staticflickr.com/5/4182/34684652395_28b223eb17_
 @media only screen and (max-device-width: 1024px) {
     .parallax {
         background-attachment: scroll;
-        
+
     }
     #background {
 
 
-    background-image: url(https://static.pexels.com/photos/27411/pexels-photo-27411.jpg);
+    background-image: url(https://c1.staticflickr.com/5/4269/34109485734_da01d5f92d_k.jpg);
         /* Full height */
         height: 100px;
         width:auto;
@@ -196,6 +196,7 @@ background-image: url(https://c1.staticflickr.com/5/4182/34684652395_28b223eb17_
   width: 100%;
   text-align: center;
   color: #000;
+
 }
 
 .caption span.border {
@@ -222,22 +223,22 @@ background-image: url(https://c1.staticflickr.com/5/4182/34684652395_28b223eb17_
 
 }
 .bgimg-1 {
-  background-image: url(fotos3.jpg);
+  background-image: url();
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url(https://static.pexels.com/photos/248021/pexels-photo-248021.jpeg);
+  background-image: url(https://c1.staticflickr.com/5/4228/34952798645_219f8cf7d3_k.jpg);
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url(https://static.pexels.com/photos/77984/pexels-photo-77984.jpeg);
+  background-image: url(https://c1.staticflickr.com/5/4222/34952791845_df2a25050a_h.jpg);
   min-height: 400px;
 }
 
 .bgimg-4 {
-  background-image: url(  https://c1.staticflickr.com/5/4192/34684921155_e301a5881e_k.jpg
+  background-image: url( https://c1.staticflickr.com/5/4243/34820667781_00abaa2d2f_k.jpg
 );
   min-height: 900px;
 }

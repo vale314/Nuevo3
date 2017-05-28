@@ -43,7 +43,7 @@ const SignUpFormEmp = ({
 
   <Card className="container">
     <form action="/" onSubmit={onSubmit}>
-      <h2 className="card-heading">Sign Uprgdfgd Empresas</h2>
+      <h2 className="card-heading">Sign Up Empresas</h2>
 
       {errors.summary && <p className="error-message">{errors.summary}</p>}
 
@@ -92,7 +92,6 @@ const SignUpFormEmp = ({
         <RaisedButton type="submit" label="Create New Account" primary />
       </div>
 
-      <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
     </form>
   </Card>
   </div>

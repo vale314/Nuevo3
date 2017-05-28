@@ -34,7 +34,7 @@ const HomePage = ({users, onChange, onClick, tomar, actualizar , dedicion, poli}
 
   <Card className="container">
 
-    <CardTitle title="Politecnico" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+    <CardTitle title="Empresas"/>
     <div className="field-line" >
       <CardTitle> Carrera</CardTitle>
           <select name="carrera" onChange={dedicion} value={poli} >

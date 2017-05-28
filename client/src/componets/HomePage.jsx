@@ -10,7 +10,7 @@ const HomePage = () =>(
   }
   <div className="bgimg-1">
     <div className="caption" >
-      <span className="border" id="clicked" onClick={x=>{document.body.id="background"}}>ESCUELA POLITECNICA</span>
+      <span className="border" id="clicked" >ESCUELA POLITECNICA</span>
     </div>
   </div>
   <div className="bgimg-1">
@@ -34,7 +34,7 @@ const HomePage = () =>(
 
   <div className="bgimg-2">
     <div className="caption">
-      <span className="border">Informaticos</span>
+      <span className="border" onClick={x=>{document.body.id="background"}}>Informaticos</span>
     </div>
   </div>
 

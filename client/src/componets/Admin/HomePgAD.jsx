@@ -9,7 +9,6 @@ const Dashboard = ({ secretData, Alumnos, Empresas,Proyectos,Universidades }) =>
       {document.body.id=""}
       <CardTitle
         title="Politecnico"
-        subtitle="Tu tienes accesso."
       />
 
       {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}

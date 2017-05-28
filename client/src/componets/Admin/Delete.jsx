@@ -6,36 +6,36 @@ const HomePage = () =>(
   // tenemos una constante llamada HomePage
   <div>
     <Card className="container">
-
-      <CardTitle title="ALL" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="ALL"/>
       <IndexLink to="/delete">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Empresas" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Empresas" />
       <IndexLink to="/deleteE">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Alumnos" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Alumnos"/>
       <IndexLink to="/deleteAl">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Codigos" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Codigos"/>
       <IndexLink to="/deletec">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Codigos By Proyectos" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Codigos By Proyectos"/>
       <IndexLink to="/deleteccp">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Codigos By Unive" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Codigos By Unive"/>
       <IndexLink to="/deleteccu">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Proyectos" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Proyectos"/>
       <IndexLink to="/deletecp">Eliminar</IndexLink>
     </Card>
     <Card className="container">
-      <CardTitle title="Universidades" subtitle="Estas casi borrando la base de datos completamente regresa"/>
+      <CardTitle title="Universidades"/>
       <IndexLink to="/deletecu">Eliminar</IndexLink>
     </Card>
   </div>

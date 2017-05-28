@@ -13,11 +13,17 @@ const Ingreso = ({ secretData }) => (
 
     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
 
-    <CardText> Tu eres una Empresa Hola</CardText>
-
-    <IndexLink to='/registroemp'>Registro</IndexLink>
-    <IndexLink to="/viewsemp">Datos</IndexLink>
-    <IndexLink to="/carreras">carreras</IndexLink>
+    <CardText> Tu Ya Eres Politecnico</CardText>
+    <div>
+      <IndexLink to='/registroemp'>Registro</IndexLink>
+    </div>
+    <div>
+      <IndexLink to="/viewsemp">Datos</IndexLink>
+    </div>
+    <div>
+      <IndexLink to="/carreras">carreras</IndexLink>
+    </div>
+      
   </Card>
 
 );

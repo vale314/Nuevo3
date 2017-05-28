@@ -45,13 +45,7 @@ const Dashboard = ({ secretData }) => (
       </div>
     </div>
   </nav>
-  <Card className="container">
-    <CardTitle
-      title="Empresas"
-      subtitle="Actualizar"
-    />
 
-  </Card>
 
 </div>
 

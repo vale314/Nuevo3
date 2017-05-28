@@ -323,7 +323,7 @@ const SignUpForm = ({
         </div>
 
         <div className="field-line">
-          <RaisedButton type="submit" label="Create New Account" primary />
+          <RaisedButton type="submit" label="Save!" primary />
         </div>
         <CardText>Password<Link to={'/passa'}>Alterar</Link></CardText>
       </form>

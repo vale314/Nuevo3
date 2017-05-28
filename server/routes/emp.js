@@ -8,7 +8,7 @@ const Validator = require('../Registro/Emp/Validator');
     saves.saves(req,(response)=>{
       if(response==false){
         return res.status(200).json({
-          message: "Empresa"
+          message: "Connection"
         });
       }else{
         return res.status(401).end();

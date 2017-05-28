@@ -74,7 +74,7 @@ const LoginForm = ({
 
     <form action="/" onSubmit={onSubmit}>
 
-      <h2 className="card-heading">Mensaje</h2>
+      <h2 className="card-heading">MESSAJE</h2>
 
 
       <div className="field-line">
@@ -89,7 +89,7 @@ const LoginForm = ({
 
 
       <div className="button-line">
-        <RaisedButton type="submit" label="Log In" primary />
+        <RaisedButton type="submit" label="Save!" primary />
       </div>
     </form>
   </Card>

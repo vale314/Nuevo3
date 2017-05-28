@@ -62,14 +62,14 @@ const Dashboard = ({ handleClick1,handleClick2,handleClick3,handleClick5,fulls})
     {!fulls &&
       <Card className="container">
         <div className="button-line">
-          <RaisedButton type="submit" label="ilimitado" primary onClick={handleClick5} />
+          <RaisedButton type="submit" label="Unlimited" primary onClick={handleClick5} />
         </div>
       </Card>
     }
     {fulls &&
       <Card className="container">
         <div className="button-line">
-          <RaisedButton type="submit" label="limitado" primary onClick={handleClick5} />
+          <RaisedButton type="submit" label="Limited" primary onClick={handleClick5} />
         </div>
       </Card>
     }

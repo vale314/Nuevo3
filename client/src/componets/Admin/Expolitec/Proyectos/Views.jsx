@@ -40,16 +40,17 @@ const HomePage = ({users, onChange, onClick, tomar, actualizar , }) =>(
         <ul className="nav navbar-nav">
           <li><Link to="/busquedap">FINDS-Proye</Link></li>
         </ul>
+        <ul className="nav navbar-nav">
+          <li><Link to="/mensa">Mensa</Link></li>
+        </ul>
       </div>
     </div>
   </nav>
 
   <Card className="container">
 
-    <CardTitle title="Politecnico" subtitle="Estas casi borrando la base de datos completamente regresa"/>
-    <div className="field-line" >
-      <CardTitle> Carrera</CardTitle>
-    </div>
+
+  <CardTitle title="Proyectos"/>
 
     <div className = "list-group">
     <a   className = "list-group-item active" onClick={z=>{actualizar()}}>

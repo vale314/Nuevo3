@@ -72,7 +72,7 @@ const LoginForm = ({
 
     <form action="/" onSubmit={onSubmit}>
 
-      <h2 className="card-heading">Login</h2>
+      <h2 className="card-heading">CODES-SCHOOL</h2>
 
       {errors.summary && <p className="error-message">Error</p>}
 
@@ -89,10 +89,9 @@ const LoginForm = ({
       </div>
 
       <div className="button-line">
-        <RaisedButton type="submit" label="Log In" primary />
+        <RaisedButton type="submit" label="Save!" primary />
       </div>
 
-      <CardText>no tienes cuenta? <Link to={'/signup'}>Create one</Link>.</CardText>
     </form>
   </Card>
   </div>

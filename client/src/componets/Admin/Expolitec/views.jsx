@@ -49,10 +49,8 @@ const HomePage = ({users, onChange, onClick, tomar, actualizar , dedicion, poli}
 
   <Card className="container">
 
-    <CardTitle title="Politecnico" subtitle="Estas casi borrando la base de datos completamente regresa"/>
-    <div className="field-line" >
-      <CardTitle> Carrera</CardTitle>
-    </div>
+
+  <CardTitle title="Escuelas"/>
 
     <div className = "list-group">
     <a   className = "list-group-item active" onClick={z=>{actualizar()}}>

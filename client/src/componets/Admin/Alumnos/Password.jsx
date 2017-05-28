@@ -25,7 +25,7 @@ const PerfilPage = ({
               />
             </div>
           <div className="button-line">
-            <RaisedButton type="submit" label="NOW" primary />
+            <RaisedButton type="submit" label="Save!" primary />
           </div>
       </form>
       </Card>

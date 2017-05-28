@@ -22,7 +22,7 @@ const PerfilPage = ({
 
       <div className="field-line">
         <TextField
-          floatingLabelText="Password Old"
+          floatingLabelText="Password"
           type="password"
           name="password1"
           onChange={onChange}
@@ -33,10 +33,9 @@ const PerfilPage = ({
 
 
       <div className="button-line">
-        <RaisedButton type="submit" label="Create New Account" primary />
+        <RaisedButton type="submit" label="Submit" primary />
       </div>
 
-      <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
     </form>
   </Card>
 );

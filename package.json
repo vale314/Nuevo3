@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "deploy":"gcloud index deploy"
+    "deploy":"gcloud index deploy",
+    "bundle": "webpack"
   },
   "author": "valentin Alejandro Ruiz Ortiz",
   "license": "ISC",

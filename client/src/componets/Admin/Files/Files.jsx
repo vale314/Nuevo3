@@ -22,13 +22,13 @@ const PerfilPage = ({
       <Card className="container">
         <CardTitle title="Filds-Emp"/>
           <div className="button-line">
-            <RaisedButton type="submit" label="Company" primary onClick={Clickend} />
+            <RaisedButton type="submit" label="Now" primary onClick={Clickend} />
           </div>
       </Card>
       <Card className="container">
-        <CardTitle title="Filds-Emp"/>
+        <CardTitle title="Filds-Alumn"/>
           <div className="button-line">
-            <RaisedButton type="submit" label="Company" primary onClick={ClickS} />
+            <RaisedButton type="submit" label="Now" primary onClick={ClickS} />
           </div>
       </Card>
     </div>

@@ -45,7 +45,7 @@ const PerfilPage = ({
       </div>
 
       <div className="button-line">
-        <RaisedButton type="submit" label="Cambiar Email" primary />
+        <RaisedButton type="submit" label="Submit" primary />
       </div>
 
     </form>

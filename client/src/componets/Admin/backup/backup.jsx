@@ -17,13 +17,13 @@ const PerfilPage = ({
       <Card className="container">
         <CardTitle title="backup"/>
           <div className="button-line">
-            <RaisedButton type="submit" label="NOW" primary onClick={onClick} />
+            <RaisedButton type="submit" label="Backups-Out" primary onClick={onClick} />
           </div>
       </Card>
       <Card className="container">
         <CardTitle title="backup"/>
           <div className="button-line">
-            <RaisedButton type="submit" label="NOW" primary onClick={Click} />
+            <RaisedButton type="submit" label="Backups-In" primary onClick={Click} />
           </div>
       </Card>
 
