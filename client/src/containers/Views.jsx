@@ -40,8 +40,7 @@ class Views extends React.Component {
   }
 
   componentDidMount() {
-    console.log('hello');
-    console.log('componentDidMount');
+
     const xhr = new XMLHttpRequest();
     xhr.open('get', '/api/registro');
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -55,7 +54,7 @@ class Views extends React.Component {
         this.setState({
           user:xhr.response.user,
         });
-        
+
     }
     });
 

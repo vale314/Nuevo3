@@ -7,10 +7,13 @@ const Ingreso = () => (
   <Card className="container">
     <CardTitle
       title="Politecnico"
-      subtitle="HELLOS"
     />
-    <IndexLink to="/registrop">Registro</IndexLink>
-    <IndexLink to="/registropa">Integrantes</IndexLink>
+    <div>
+      <IndexLink to="/registrop">Registro</IndexLink>
+    </div>
+    <div>
+      <IndexLink to="/registropa">Integrantes</IndexLink>
+  </div>
   </Card>
 
 );

@@ -264,10 +264,9 @@ const SignUpForm = ({
       </div>
     }
       <div className="button-line">
-        <RaisedButton type="submit" label="Create New Account" primary />
+        <RaisedButton type="submit" label="Save!" primary />
       </div>
 
-      <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
     </form>
   </Card>
 );

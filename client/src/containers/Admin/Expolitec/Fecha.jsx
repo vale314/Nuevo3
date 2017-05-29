@@ -90,7 +90,6 @@ class SignUpPage extends React.Component {
          });
 
        }
-       console.log(this.state)
      });
      xhr.send();
    }

@@ -131,7 +131,7 @@ class SignUpPage extends React.Component {
           }
 
        }
-       console.log(this.state.user)
+
      });
 
        xhr.send();

@@ -11,7 +11,7 @@ function New(array,callback){
     bcrypt.hash(password, salt, (hashError, hash) => {
       if (hashError){ console.log('errorHash');return callback(false);}
       var NewPassword=hash;
-      console.log(codigo)
+
           User.update({'codigo':codigo},{$set: {'password':NewPassword}},(err,user)=>{
                 if(err || !user){
                   console.log('error en User')

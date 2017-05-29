@@ -44,39 +44,59 @@ function registro(dia,callback){
         else if(d=='2'){
 
             Finds(d,(response)=>{
-              if(response == 1) return callback(1)
-              if (response == 3) return callback(3)
-              decremento([d,hours,response.hours],(response)=>{
-                if(response == 1) return callback(1)
-                if(response) return callback(response)
+              if(response.fulls ==1){
                 Universidad.update({'_id':responses._id},{$set:{'dia2':hours}},(UserErr,User)=>{
                   if(UserErr || !User) {
                     console.log(UserErr)
                     return callback(false);
                   }
                 return callback()
-              })
-            })
+                })
+              }else{
+                  if(response == 1) return callback(1)
+                  if (response == 3) return callback(3)
+                  decremento([d,hours,response.hours],(response)=>{
+                    if(response == 1) return callback(1)
+                    if(response) return callback(response)
+                    Universidad.update({'_id':responses._id},{$set:{'dia2':hours}},(UserErr,User)=>{
+                      if(UserErr || !User) {
+                        console.log(UserErr)
+                        return callback(false);
+                      }
+                    return callback()
+
+                  })
+                })
+              }
           })
         }
         else if(d=='3'){
-
             Finds(d,(response)=>{
-              if(response == 1) return callback(1)
-              if (response == 3) return callback(3)
-              decremento([d,hours,response.hours],(response)=>{
-                if(response == 1) return callback(1)
-                if(response) return callback(response)
+              if(response.fulls ==1){
                 Universidad.update({'_id':responses._id},{$set:{'dia3':hours}},(UserErr,User)=>{
-
                   if(UserErr || !User) {
                     console.log(UserErr)
                     return callback(false);
                   }
                 return callback()
-              })
+                })
+              }else{
+                  if(response == 1) return callback(1)
+                  if (response == 3) return callback(3)
+                  decremento([d,hours,response.hours],(response)=>{
+                    if(response == 1) return callback(1)
+                    if(response) return callback(response)
+                    Universidad.update({'_id':responses._id},{$set:{'dia3':hours}},(UserErr,User)=>{
+                      if(UserErr || !User) {
+                        console.log(UserErr)
+                        return callback(false);
+                      }
+                    return callback()
+
+                  })
+                })
+              }
             })
-          })
         }
 
       })

@@ -30,7 +30,7 @@ module.exports = (req, res, next) => {
     return Admin.findById(userId, (userErr, user) => {
       if (userErr || !user) {
         //si hay un error o no se encontro en user
-        console.log(user);
+
         return res.status(401).end();
         //se manda status
       }

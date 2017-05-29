@@ -40,13 +40,13 @@ class RegistroEmp extends React.Component {
     const field = event.target.name;
     const user = this.state.user;
 
-    console.log(this.state.user)
+
 
     user[field] = event.target.value;
     this.setState({
       user
     });
-    console.log(this.state.user)
+
   }
 
   /**
@@ -95,7 +95,7 @@ class RegistroEmp extends React.Component {
 
        }
      });
-     console.log(user)
+
      xhr.send(user);
 
      //this.props.router.replace('/')

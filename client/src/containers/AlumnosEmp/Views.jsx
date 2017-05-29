@@ -62,7 +62,7 @@ class RegistroEmp extends React.Component {
    }
 
    tomar(event) {
-     console.log(event);
+
       sessionStorage.setItem('codigo', event);
 
    }
@@ -77,7 +77,6 @@ class RegistroEmp extends React.Component {
 
 
    componentDidMount() {
-     console.log('componentDidMount');
      const xhr = new XMLHttpRequest();
      xhr.open('get', '/api/view');
      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');

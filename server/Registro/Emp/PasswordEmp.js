@@ -23,7 +23,7 @@ function Cambio(datas,callback){
   bcrypt.genSalt(10,(saltError, salt) => {
     if (saltError) { console.log('error'); return callback(true); }
 
-    console.log(datas.password5);
+
     bcrypt.hash(datas.password5, salt, (hashError, hash) => {
       if (hashError){ console.log('errorHash'); callback(true);}
       var NewPassword=hash;

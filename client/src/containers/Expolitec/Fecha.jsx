@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import SignUpForm from '../../componets/Admin/Expolitec/Horas.jsx';
+import SignUpForm from '../../componets/Expolitec/Horas.jsx';
 import Auth from '../../modules/Auth.js';
 
 class RegistroEmp extends React.Component {
@@ -40,13 +40,13 @@ class RegistroEmp extends React.Component {
     const field = event.target.name;
     const user = this.state.user;
 
-    console.log(this.state.user)
+
 
     user[field] = event.target.value;
     this.setState({
       user
     });
-    console.log(this.state.user)
+
   }
 
   /**
@@ -79,7 +79,7 @@ class RegistroEmp extends React.Component {
          this.setState({
            error: {}
          });
-
+         this.props.router.replace('/expolfechau');
          console.log('The form is valid');
 
        } else {
@@ -95,7 +95,7 @@ class RegistroEmp extends React.Component {
 
        }
      });
-     console.log(user)
+
      xhr.send(user);
 
      //this.props.router.replace('/')

@@ -17,7 +17,7 @@ Finds.find(datas[0],(response)=>{
   dat=dat.slice(0,response.tamaño);
 
   const resta = 5-response.carreras.length
-  console.log(response.carreras)
+
   for(var i=0;i<=resta;i++){
       dat.push({carrera:'null',sexo:'null',  codigo:null,name:'',numero:null,});
   }

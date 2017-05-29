@@ -74,6 +74,7 @@ class SignUpPage extends React.Component {
          });
 
          console.log('The form is valid');
+         this.props.router.replace('/expolfechau')
          //this.props.router.replace('/');
        } else {
          // failure
@@ -95,7 +96,7 @@ class SignUpPage extends React.Component {
 
 
    componentDidMount() {
-     console.log('componentDidMount');
+
      const xhr = new XMLHttpRequest();
      xhr.open('get', '/unive/horasescul');
      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -115,7 +116,7 @@ class SignUpPage extends React.Component {
      });
 
        xhr.send();
-       xhr.removeEventListener('load',console.log('remove'));
+       xhr.removeEventListener('load');
 
    }
 

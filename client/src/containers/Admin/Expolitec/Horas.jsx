@@ -47,7 +47,7 @@ class RegistroEmp extends React.Component {
     this.setState({
       user
     });
-    console.log(this.state.user)
+
   }
 
   /**
@@ -96,7 +96,7 @@ class RegistroEmp extends React.Component {
 
        }
      });
-     console.log(user)
+
      xhr.send(user);
 
      //this.props.router.replace('/')

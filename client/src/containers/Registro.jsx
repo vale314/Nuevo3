@@ -136,7 +136,7 @@ class SignUpPage extends React.Component {
 
 
    componentDidMount() {
-     console.log('componentDidMount');
+
      const xhr = new XMLHttpRequest();
      xhr.open('get', '/api/registro');
      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');

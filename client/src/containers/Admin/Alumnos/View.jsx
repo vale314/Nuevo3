@@ -47,7 +47,7 @@ class Views extends React.Component {
     }
 
     tomar(event) {
-      console.log(event);
+
        sessionStorage.setItem('codigo', event);
 
     }

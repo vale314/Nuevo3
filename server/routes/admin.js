@@ -50,7 +50,6 @@ const FilesStudents = require('../Registro/Admin/Alumnos/Files')
   router.get('/dashboard', (req, res) => {
 
     Panorama.calls((response)=>{
-        console.log(response)
         res.status(200).json({
           message: "Conncetion",
           status:response
@@ -340,7 +339,7 @@ router.post('/passworda',(req,res)=>{
   const array=[];
   array[0]= codigo;
   array[1]=req.body.password;
-  console.log([array])
+
   PasswordA.New(array,(response)=>{
     if(response) return res.status(200).end();
     else return res.status(400).end();
@@ -354,7 +353,6 @@ router.post('/passwordex',(req,res)=>{
   const array=[];
   array[0]= codigo;
   array[1]=req.body.password;
-  console.log([array])
   PasswordExP.New(array,(response)=>{
     if(response) return res.status(200).end();
     else return res.status(400).end();
@@ -368,7 +366,7 @@ router.post('/passwordproye',(req,res)=>{
   const array=[];
   array[0]= codigo;
   array[1]=req.body.password;
-  console.log([array])
+
   PasswordProye.New(array,(response)=>{
     if(response) return res.status(200).end();
     else return res.status(400).end();
@@ -438,7 +436,7 @@ router.get('/fechadelete',(req,res)=>{
 
 router.get('/backup',(req,res)=>{
   Smlab.guardar((response5)=>{
-    console.log(response5)
+
     if(response5==true){
       return res.status(403).end();
     }else{
@@ -501,10 +499,8 @@ router.get('/expolih',(req,res)=>{
   FHoras.registro(codigo,(respuesta)=>{
     if(respuesta==1){
       res.status(400).end();
-      console.log('error')
     }
     if(respuesta == 3){
-      console.log('Not-Found');
       return res.status(200).end();
     }
     res.status(200).json({

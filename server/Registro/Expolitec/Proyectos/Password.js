@@ -7,7 +7,7 @@ function registro(datas, callback){
    if (response == false) {
      return callback(false);
    }
-   console.log(datas[1].password1)
+
    response.comparePassword(datas[1].password1, (passwordErr, isMatch) => {
      if(!isMatch){
 

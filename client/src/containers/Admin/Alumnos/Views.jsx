@@ -163,7 +163,6 @@ class RegistroEmp extends React.Component {
 
 
    componentDidMount() {
-     console.log('componentDidMount');
      const xhr = new XMLHttpRequest();
      xhr.open('get', '/admin/cambioA');
      xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
@@ -186,12 +185,11 @@ class RegistroEmp extends React.Component {
      });
 
        xhr.send();
-       xhr.removeEventListener('load',console.log('remove'));
+       xhr.removeEventListener('load');
 
    }
 
    componentWillUnmount(){
-     console.log('componentwillUnmount');
      this.mounted = false;
    }
    /**

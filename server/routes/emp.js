@@ -21,7 +21,7 @@ const Validator = require('../Registro/Emp/Validator');
     const token = req.headers.authorization.split(' ')[1];
     const validate0 = req.headers.authorization.split(' ')[0];
     Find.find(token, (response)=>{
-      //console.log(response);
+
       if (validate0 === 'bearers' &&  !response.telefono) return res.status(409).end();
 
       if(validate0=='bearers'){

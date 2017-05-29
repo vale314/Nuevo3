@@ -7,12 +7,11 @@ const Ingreso = ({ secretData }) => (
   <Card className="container">
     <CardTitle
       title="Politecnico"
-      subtitle="Tu tienes accesso."
     />
 
     {secretData && <CardText style={{ fontSize: '16px', color: 'green' }}>{secretData}</CardText>}
 
-    <CardText> Tu eres una Universidad Hola</CardText>
+    <CardText> Tu eres Politecnico</CardText>
 
     <IndexLink to='/expolfechau'>Fecha </IndexLink>
     <IndexLink to='/registrouni'>Registro</IndexLink>

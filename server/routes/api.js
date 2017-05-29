@@ -119,7 +119,6 @@ router.get('/seleccion',(req,res)=>{
               Seleccion.Seleccion(msj,(response1)=>{
                 if(response1===3){
                   return res.status(500).end();
-                  console.log('error');
                 }
                 return res.status(200).json({
                   codeEmp:response1

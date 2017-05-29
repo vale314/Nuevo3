@@ -14,7 +14,7 @@ function Seleccion (msj,callback ){
                     if(userErr || !user)  return callback(3);
 
                     const bool = names(userA,codigo);
-                    console.log(bool);
+
                     if(bool) return callback(response.codigo);
                     else  return callback(3)
 
@@ -32,7 +32,7 @@ function Seleccion (msj,callback ){
                   return callback(3);
                 }
                 const bool = names(userA,codigo);
-                console.log(bool);
+
                 if(bool) return callback(response.codigo)
                 else  return callback(3)
               })
@@ -47,7 +47,7 @@ function Seleccion (msj,callback ){
                 return callback(3);
               }
               const bool = names(userA,codigo);
-              console.log(bool);
+
               if(bool) return callback(response.codigo)
               else  return callback(3)
             })
@@ -63,7 +63,7 @@ function Seleccion (msj,callback ){
                 return callback(3);
               }
               const bool = names(userA,codigo);
-              console.log(bool);
+
               if(bool) return callback(response.codigo)
               else  return callback(3)
             })
@@ -78,7 +78,7 @@ function Seleccion (msj,callback ){
                 return callback(3);
               }
               const bool = names(userA,codigo);
-              console.log(bool);
+
               if(bool) return callback(response.codigo)
               else  return callback(3)
             })
@@ -93,7 +93,7 @@ function Seleccion (msj,callback ){
                 return callback(3);
               }
               const bool = names(userA,codigo);
-              console.log(bool);
+
               if(bool) return callback(response.codigo)
               else  return callback(3)
             })
@@ -108,7 +108,7 @@ function Seleccion (msj,callback ){
                 return callback(3);
               }
               const bool = names(userA,codigo);
-              console.log(bool);
+
               if(bool) return callback(response.codigo)
               else  return callback(3)
             })

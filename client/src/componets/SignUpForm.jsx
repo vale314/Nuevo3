@@ -106,8 +106,6 @@ const SignUpForm = ({
         </div>
 
         <CardText>Already have an account? <Link to={'/login'}>Log in</Link></CardText>
-        <CardText>Already have an account? <Link to={'/loginuni'}>Log in Expolitec</Link></CardText>
-        <CardText>Already have an account? <Link to={'/signupproyectos'}>Proyectos</Link></CardText>
 
       </form>
     </Card>
